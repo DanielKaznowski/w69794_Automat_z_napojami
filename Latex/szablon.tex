@@ -1,0 +1,58 @@
+% **** Szablon pracy magisterskiej, licencjackiej lub inżynierskiej ****
+
+\documentclass[polish,12pt,twoside,a4paper]{report}
+
+\input{style.tex}
+
+%definicja przydatnych poleceń
+\newcommand{\wydzial}{KOLEGIUM INFORMATYKI STOSOWANEJ}
+\newcommand{\kierunek}{Kierunek: INFORMATYKA}
+\newcommand{\specjalnosc}{Specjalność: Technologie
+IoT – Internetu Rzeczy}
+\newcommand{\autor}{Daniel Kaznowski}
+\newcommand{\album}{w69794}
+\newcommand{\temat}{Aplikacja „Automat z napojami”}
+\newcommand{\promotor}{Mgr. Inż. Ewa Żesławska}
+\newcommand{\typpracy}{Praca projektowa programowanie obiekotwe C\#}
+\newcommand{\miasto}{Rzeszów}
+\newcommand{\rok}{2025}
+
+\begin{document}
+
+% *************** Włączenie definicji pierwszych stron ***************
+\input{front.tex}
+
+
+% *************** Część główna pracy ***************
+\input{wstep.tex}
+\addcontentsline{toc}{chapter}{Wstęp}
+\newpage
+\input{R1.tex}
+\newpage
+\input{R2.tex}
+\newpage
+\input{R3.tex}
+\newpage
+\input{R4.tex}
+\newpage
+
+% *************** Bibliografia ***************
+\begin{thebibliography}{6}
+\addcontentsline{toc}{chapter}{Bibliografia}
+%dodanie wpisu do spisu bibliograficznego
+
+
+\bibitem{www-2} https://www.youtube.com/watch?v=5T2DXFbSd18 
+\bibitem{} Jacek Matulewski, C\#: lekcje programowania: praktyczna nauka programowania dla platform .NET i .NET Core, Helion, Gliwice 2021 
+\bibitem{} Joseph  Albahari, Eric Johannsen, C\# 8.0 w pigułce, Helion, Gliwice, 2021
+\bibitem{} R. S. Miles, C\#: zacznij programować!, Helion, Gliwice, 2020
+\bibitem{} Włodzimierz Gajda, Git : rozproszony system kontroli wersji, Gliwice : Wydawnictwo Helion, 2013
+
+\end{thebibliography}
+\newpage
+
+% *************** Zakończenie ***************
+\input{back.tex}
+
+\end{document}
+% *************** Koniec pliku szablon.tex ***************
